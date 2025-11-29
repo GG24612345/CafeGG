@@ -1,0 +1,3 @@
+        edit = st.data_editor(df_plantas)
+    else:
+        st.table(df_plantas)
