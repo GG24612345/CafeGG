@@ -58,8 +58,8 @@ if selecionada == opcoes[0]:
 
     fig = px.bar(
         df_price,
-        x="RendaCalculada",
-        y="price",
+        x="price",
+        y="RendaCalculada",
         color="RendaCalculada",  # cores diferentes por categoria
         hover_data=["RendaCalculada", "price"],  # mostra info ao passar o mouse
         title="Previsão de renda"
